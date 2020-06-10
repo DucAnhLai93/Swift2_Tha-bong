@@ -14,15 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-        myView.frame = CGRect(x: 127, y: 60, width: 120
+        myView.frame = CGRect(x: 127, y: 100, width: 120
             , height: 120  )
         myView.backgroundColor = UIColor.orange
         myView.layer.cornerRadius = 60 //bo thanh hinh tron
         
         UIView.animate(withDuration: 5) {
-//            self.myView.center.y = 607
-            self.myView.center.y = self.myView.center.y * 5.0625
-            
+            self.myView.center.y = 607             
         }
         
         
